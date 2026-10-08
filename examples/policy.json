@@ -1,0 +1,11 @@
+{
+  "suiteId": "SYNTHETIC-DEMO-NOT-MODEL-RESULTS",
+  "suiteVersion": "1",
+  "category": "classification",
+  "channel": "automatic",
+  "maxMeanCostUsd": 0.01,
+  "minTasks": 5,
+  "minGatePassRate": 0.8,
+  "requireCompleteCoverage": true,
+  "preferredCandidateIds": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@dna113p/machine-wars",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local, budget-aware task evaluations and agent rankings for the Machines ecosystem.",
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "bin": { "machine-wars": "./dist/src/cli.js" },
+  "exports": { ".": { "types": "./dist/src/index.d.ts", "import": "./dist/src/index.js" } },
+  "files": ["dist", "README.md", "docs", "examples/*.json"],
+  "scripts": {
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm test",
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build",
+    "smoke:package": "node scripts/smoke-package.mjs",
+    "demo": "node examples/demo.ts"
+  },
+  "devDependencies": { "@types/node": "^24.0.0", "typescript": "^7.0.2" }
+}

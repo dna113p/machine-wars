@@ -1,0 +1,18 @@
+{
+  "note": "HYPOTHETICAL PRICES ONLY. Not provider quotes, actual results, or spending authorization. Judge calls include any position swaps.",
+  "tasks": 20,
+  "repeats": 1,
+  "caps": { "inputTokens": 1200, "outputTokens": 512, "toolCalls": 0 },
+  "candidates": [
+    { "candidateId": "hypothetical-1", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 },
+    { "candidateId": "hypothetical-2", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 },
+    { "candidateId": "hypothetical-3", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 },
+    { "candidateId": "hypothetical-4", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 },
+    { "candidateId": "hypothetical-5", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 },
+    { "candidateId": "hypothetical-6", "inputUsdPerMillion": 1, "outputUsdPerMillion": 4 }
+  ],
+  "toolCallUsd": 0,
+  "judge": { "calls": 20, "inputTokens": 2400, "outputTokens": 128, "inputUsdPerMillion": 3, "outputUsdPerMillion": 15 },
+  "budgetUsd": 1,
+  "reserveFraction": 0.2
+}
