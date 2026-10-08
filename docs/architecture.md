@@ -2,7 +2,7 @@
 
 ## Boundary with Machines
 
-`machine-wars` is a sibling application, like `auto-machines`, not a new Machines runtime primitive. Machines still owns transitions, retry/escalation policy, and runner invocation. Battle evidence and ranking logic stay here.
+`machine-wars` is a sibling application, like `machines-dispatch`, not a new Machines runtime primitive. Machines still owns transitions, retry/escalation policy, and runner invocation. Battle evidence and ranking logic stay here.
 
 ```text
 saved candidate outputs + human/imported-judge votes
