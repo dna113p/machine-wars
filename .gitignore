@@ -7,3 +7,6 @@ data/
 *.lock
 !package-lock.json
 *.tmp
+
+# Private, per-run Machine evidence.
+.machine-runs/
