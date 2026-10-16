@@ -95,3 +95,12 @@ retries or cancellation.
 `npm run build` writes the package and CLI to `dist/`. `npm run
 smoke:package` installs the packed tarball in a temporary directory and tests
 it. The package is marked private and has no runtime dependencies.
+
+## The Machines family
+
+| Project | What it does |
+| --- | --- |
+| [Machines](https://github.com/dna113p/machines) | The runtime: write a workflow as states, and run it with Agents, checks and people |
+| [Machine Shop](https://github.com/dna113p/machine-shop) | Ready-made software workflows to copy into a project |
+| [Machines Dispatch](https://github.com/dna113p/machines-dispatch) | A local daemon that runs a Machine for each ticket that is ready |
+| **Machine Wars** (this repository) | A concept: ranking Agents so a Machine can pick one |
